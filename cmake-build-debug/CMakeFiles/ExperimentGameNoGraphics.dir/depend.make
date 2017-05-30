@@ -20,6 +20,12 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Knight.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Knight.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Weapon.h
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Die.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../GameChar.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Weapon.h
+
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.h
@@ -28,6 +34,12 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Weapon.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Weapon.h
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../Die.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../GameChar.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../Weapon.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../Wizard.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../Wizard.h
 
 CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o: ../GameChar.h

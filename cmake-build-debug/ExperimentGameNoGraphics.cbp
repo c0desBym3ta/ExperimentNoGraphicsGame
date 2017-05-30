@@ -108,6 +108,12 @@
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Knight.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Orc.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
@@ -118,6 +124,12 @@
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Weapon.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Wizard.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/main.cpp">

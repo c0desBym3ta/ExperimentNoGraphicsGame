@@ -46,6 +46,14 @@ Knight.h
 GameChar.h
 /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
 
+/root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp
+Orc.h
+/root/CLionProjects/ExperimentGameNoGraphics/Orc.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Orc.h
+GameChar.h
+/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
+
 /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp
 Sword.h
 /root/CLionProjects/ExperimentGameNoGraphics/Sword.h
@@ -65,6 +73,14 @@ string
 -
 iostream
 -
+
+/root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp
+Wizard.h
+/root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
+GameChar.h
+/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
 
 /root/CLionProjects/ExperimentGameNoGraphics/main.cpp
 iostream

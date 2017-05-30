@@ -225,6 +225,54 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o.provides: CMakeFiles/Experi
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o
 
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o
+
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o: ../Wizard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o
+
+
 # Object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_OBJECTS = \
 "CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o" \
@@ -233,7 +281,9 @@ ExperimentGameNoGraphics_OBJECTS = \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o" \
-"CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o"
+"CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o"
 
 # External object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_EXTERNAL_OBJECTS =
@@ -245,9 +295,11 @@ ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/build.make
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ExperimentGameNoGraphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ExperimentGameNoGraphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExperimentGameNoGraphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +314,8 @@ CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGra
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.requires
 
 .PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/requires
 

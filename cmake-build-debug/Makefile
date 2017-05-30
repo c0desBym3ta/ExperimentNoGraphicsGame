@@ -231,6 +231,33 @@ Knight.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.s
 .PHONY : Knight.cpp.s
 
+Orc.o: Orc.cpp.o
+
+.PHONY : Orc.o
+
+# target to build an object file
+Orc.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o
+.PHONY : Orc.cpp.o
+
+Orc.i: Orc.cpp.i
+
+.PHONY : Orc.i
+
+# target to preprocess a source file
+Orc.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.i
+.PHONY : Orc.cpp.i
+
+Orc.s: Orc.cpp.s
+
+.PHONY : Orc.s
+
+# target to generate assembly for a file
+Orc.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.s
+.PHONY : Orc.cpp.s
+
 Sword.o: Sword.cpp.o
 
 .PHONY : Sword.o
@@ -285,6 +312,33 @@ Weapon.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.s
 .PHONY : Weapon.cpp.s
 
+Wizard.o: Wizard.cpp.o
+
+.PHONY : Wizard.o
+
+# target to build an object file
+Wizard.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o
+.PHONY : Wizard.cpp.o
+
+Wizard.i: Wizard.cpp.i
+
+.PHONY : Wizard.i
+
+# target to preprocess a source file
+Wizard.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.i
+.PHONY : Wizard.cpp.i
+
+Wizard.s: Wizard.cpp.s
+
+.PHONY : Wizard.s
+
+# target to generate assembly for a file
+Wizard.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.s
+.PHONY : Wizard.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -333,12 +387,18 @@ help:
 	@echo "... Knight.o"
 	@echo "... Knight.i"
 	@echo "... Knight.s"
+	@echo "... Orc.o"
+	@echo "... Orc.i"
+	@echo "... Orc.s"
 	@echo "... Sword.o"
 	@echo "... Sword.i"
 	@echo "... Sword.s"
 	@echo "... Weapon.o"
 	@echo "... Weapon.i"
 	@echo "... Weapon.s"
+	@echo "... Wizard.o"
+	@echo "... Wizard.i"
+	@echo "... Wizard.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
