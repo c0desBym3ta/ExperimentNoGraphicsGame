@@ -204,6 +204,33 @@ GameChar.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.s
 .PHONY : GameChar.cpp.s
 
+Knight.o: Knight.cpp.o
+
+.PHONY : Knight.o
+
+# target to build an object file
+Knight.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o
+.PHONY : Knight.cpp.o
+
+Knight.i: Knight.cpp.i
+
+.PHONY : Knight.i
+
+# target to preprocess a source file
+Knight.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.i
+.PHONY : Knight.cpp.i
+
+Knight.s: Knight.cpp.s
+
+.PHONY : Knight.s
+
+# target to generate assembly for a file
+Knight.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.s
+.PHONY : Knight.cpp.s
+
 Sword.o: Sword.cpp.o
 
 .PHONY : Sword.o
@@ -303,6 +330,9 @@ help:
 	@echo "... GameChar.o"
 	@echo "... GameChar.i"
 	@echo "... GameChar.s"
+	@echo "... Knight.o"
+	@echo "... Knight.i"
+	@echo "... Knight.s"
 	@echo "... Sword.o"
 	@echo "... Sword.i"
 	@echo "... Sword.s"

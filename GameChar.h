@@ -12,7 +12,7 @@
 class GameChar {
 public:
     GameChar(int hp, int dexterity, Weapon *weapon = nullptr); //positions no need. We can add them to the move method.
-    virtual void move() = 0; //Again virtual pure function because every character has it's own way to move.
+    virtual void move(int x, int y) = 0; //Again virtual pure function because every character has it's own way to move.
     virtual int fight(GameChar &enemy) = 0; //Every character can fight we another ways. Here it's not smart to add a basicFight function. Enemy refers to the GameChat class itself. So it's a referece (&);
 
 

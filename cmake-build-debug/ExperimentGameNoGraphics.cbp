@@ -102,6 +102,12 @@
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Knight.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Knight.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>

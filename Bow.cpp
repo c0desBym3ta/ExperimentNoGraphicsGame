@@ -4,7 +4,7 @@
 
 #include "Bow.h"
 
-Bow::Bow(int strength, bool magic = false, int arrows = 10) : Weapon(strength, magic), arrows(arrows){
+Bow::Bow(int strength, bool magic , int arrows) : Weapon(strength, magic), arrows(arrows){
 
 }
 

@@ -4,7 +4,7 @@
 
 #include "Sword.h"
 
-Sword::Sword(int strength, bool magic = false, bool valirian = false) : Weapon(strength,magic), valirian(valirian) { //In implementation. First implement the base's class variables.
+Sword::Sword(int strength, bool magic , bool valirian) : Weapon(strength,magic), valirian(valirian) { //In implementation. First implement the base's class variables.
 
 }
 

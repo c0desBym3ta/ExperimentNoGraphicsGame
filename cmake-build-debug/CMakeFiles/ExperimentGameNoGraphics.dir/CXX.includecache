@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/root/CLionProjects/ExperimentGameNoGraphics/Bow.cpp
+Bow.h
+/root/CLionProjects/ExperimentGameNoGraphics/Bow.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Bow.h
+Weapon.h
+/root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+
 /root/CLionProjects/ExperimentGameNoGraphics/Die.cpp
 Die.h
 /root/CLionProjects/ExperimentGameNoGraphics/Die.h
@@ -29,6 +37,14 @@ iostream
 -
 Weapon.h
 /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Knight.cpp
+Knight.h
+/root/CLionProjects/ExperimentGameNoGraphics/Knight.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Knight.h
+GameChar.h
+/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
 
 /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp
 Sword.h

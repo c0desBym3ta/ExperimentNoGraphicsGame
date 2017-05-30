@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o"
   "CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o"
   "CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o"
+  "CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o"
   "ExperimentGameNoGraphics.pdb"
   "ExperimentGameNoGraphics"
 )
