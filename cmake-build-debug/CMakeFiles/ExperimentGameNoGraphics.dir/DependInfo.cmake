@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/root/CLionProjects/ExperimentGameNoGraphics/Die.cpp" "/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o"
   "/root/CLionProjects/ExperimentGameNoGraphics/GameChar.cpp" "/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o"
   "/root/CLionProjects/ExperimentGameNoGraphics/Weapon.cpp" "/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o"
   "/root/CLionProjects/ExperimentGameNoGraphics/main.cpp" "/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o"

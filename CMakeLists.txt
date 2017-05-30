@@ -3,5 +3,5 @@ project(ExperimentGameNoGraphics)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp GameChar.cpp GameChar.h Weapon.cpp Weapon.h)
+set(SOURCE_FILES main.cpp GameChar.cpp GameChar.h Weapon.cpp Weapon.h Die.cpp Die.h)
 add_executable(ExperimentGameNoGraphics ${SOURCE_FILES})

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Die.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Die.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/GameChar.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>

@@ -123,6 +123,33 @@ ExperimentGameNoGraphics/fast:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/build
 .PHONY : ExperimentGameNoGraphics/fast
 
+Die.o: Die.cpp.o
+
+.PHONY : Die.o
+
+# target to build an object file
+Die.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o
+.PHONY : Die.cpp.o
+
+Die.i: Die.cpp.i
+
+.PHONY : Die.i
+
+# target to preprocess a source file
+Die.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.i
+.PHONY : Die.cpp.i
+
+Die.s: Die.cpp.s
+
+.PHONY : Die.s
+
+# target to generate assembly for a file
+Die.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.s
+.PHONY : Die.cpp.s
+
 GameChar.o: GameChar.cpp.o
 
 .PHONY : GameChar.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ExperimentGameNoGraphics"
+	@echo "... Die.o"
+	@echo "... Die.i"
+	@echo "... Die.s"
 	@echo "... GameChar.o"
 	@echo "... GameChar.i"
 	@echo "... GameChar.s"
