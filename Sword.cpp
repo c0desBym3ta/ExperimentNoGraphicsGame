@@ -10,8 +10,10 @@ Sword::Sword(int strength, bool magic , bool valirian) : Weapon(strength,magic),
 
 int Sword::use(){
     int damage = 1;
-    damage = Weapon::basicUse(); //Taking the basic use function from the base class.
-    if(valirian) //Implementing the unique characteristic if the valirian is false.
+
+    damage = Weapon::basicUse();
+
+    if(valirian)
         damage*=2;
     else
         return damage;
