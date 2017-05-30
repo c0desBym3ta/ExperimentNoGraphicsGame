@@ -42,7 +42,12 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o
  /root/CLionProjects/ExperimentGameNoGraphics/Wizard.cpp
  /root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
 CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o
+ /root/CLionProjects/ExperimentGameNoGraphics/Bow.h
  /root/CLionProjects/ExperimentGameNoGraphics/Die.h
  /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
+ /root/CLionProjects/ExperimentGameNoGraphics/Knight.h
+ /root/CLionProjects/ExperimentGameNoGraphics/Orc.h
+ /root/CLionProjects/ExperimentGameNoGraphics/Sword.h
  /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+ /root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
  /root/CLionProjects/ExperimentGameNoGraphics/main.cpp

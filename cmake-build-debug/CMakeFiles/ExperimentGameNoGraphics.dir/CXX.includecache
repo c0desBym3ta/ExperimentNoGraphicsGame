@@ -91,4 +91,16 @@ GameChar.h
 /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
 Weapon.h
 /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+Bow.h
+/root/CLionProjects/ExperimentGameNoGraphics/Bow.h
+Sword.h
+/root/CLionProjects/ExperimentGameNoGraphics/Sword.h
+Knight.h
+/root/CLionProjects/ExperimentGameNoGraphics/Knight.h
+Wizard.h
+/root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
+Orc.h
+/root/CLionProjects/ExperimentGameNoGraphics/Orc.h
+Die.h
+/root/CLionProjects/ExperimentGameNoGraphics/Die.h
 
