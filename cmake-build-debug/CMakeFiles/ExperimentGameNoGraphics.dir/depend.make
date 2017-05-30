@@ -9,6 +9,11 @@ CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../GameChar.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../GameChar.h
 CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../Weapon.h
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Die.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Weapon.h
+
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Weapon.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o: ../Weapon.h

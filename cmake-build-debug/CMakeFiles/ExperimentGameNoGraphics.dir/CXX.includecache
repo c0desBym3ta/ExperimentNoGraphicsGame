@@ -30,6 +30,14 @@ iostream
 Weapon.h
 /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
 
+/root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp
+Sword.h
+/root/CLionProjects/ExperimentGameNoGraphics/Sword.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/Sword.h
+Weapon.h
+/root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+
 /root/CLionProjects/ExperimentGameNoGraphics/Weapon.cpp
 Weapon.h
 /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h

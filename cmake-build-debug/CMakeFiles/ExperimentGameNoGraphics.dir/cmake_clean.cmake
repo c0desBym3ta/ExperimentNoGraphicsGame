@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o"
   "CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o"
   "CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o"
+  "CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o"
+  "CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o"
   "ExperimentGameNoGraphics.pdb"
   "ExperimentGameNoGraphics"
 )

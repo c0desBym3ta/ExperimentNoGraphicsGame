@@ -153,12 +153,62 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o.provides: CMakeFiles/Experimen
 CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o
 
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o
+
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o: ../Bow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Bow.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Bow.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Bow.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o
+
+
 # Object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_OBJECTS = \
 "CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o" \
-"CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o"
+"CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o"
 
 # External object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_EXTERNAL_OBJECTS =
@@ -167,9 +217,11 @@ ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/build.make
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ExperimentGameNoGraphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ExperimentGameNoGraphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExperimentGameNoGraphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +233,8 @@ CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGra
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Weapon.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Die.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o.requires
 
 .PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/requires
 

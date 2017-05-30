@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Bow.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Bow.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Die.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
@@ -94,6 +100,12 @@
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Weapon.cpp">

@@ -123,6 +123,33 @@ ExperimentGameNoGraphics/fast:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/build
 .PHONY : ExperimentGameNoGraphics/fast
 
+Bow.o: Bow.cpp.o
+
+.PHONY : Bow.o
+
+# target to build an object file
+Bow.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.o
+.PHONY : Bow.cpp.o
+
+Bow.i: Bow.cpp.i
+
+.PHONY : Bow.i
+
+# target to preprocess a source file
+Bow.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.i
+.PHONY : Bow.cpp.i
+
+Bow.s: Bow.cpp.s
+
+.PHONY : Bow.s
+
+# target to generate assembly for a file
+Bow.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Bow.cpp.s
+.PHONY : Bow.cpp.s
+
 Die.o: Die.cpp.o
 
 .PHONY : Die.o
@@ -176,6 +203,33 @@ GameChar.s: GameChar.cpp.s
 GameChar.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.s
 .PHONY : GameChar.cpp.s
+
+Sword.o: Sword.cpp.o
+
+.PHONY : Sword.o
+
+# target to build an object file
+Sword.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o
+.PHONY : Sword.cpp.o
+
+Sword.i: Sword.cpp.i
+
+.PHONY : Sword.i
+
+# target to preprocess a source file
+Sword.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.i
+.PHONY : Sword.cpp.i
+
+Sword.s: Sword.cpp.s
+
+.PHONY : Sword.s
+
+# target to generate assembly for a file
+Sword.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.s
+.PHONY : Sword.cpp.s
 
 Weapon.o: Weapon.cpp.o
 
@@ -240,12 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ExperimentGameNoGraphics"
+	@echo "... Bow.o"
+	@echo "... Bow.i"
+	@echo "... Bow.s"
 	@echo "... Die.o"
 	@echo "... Die.i"
 	@echo "... Die.s"
 	@echo "... GameChar.o"
 	@echo "... GameChar.i"
 	@echo "... GameChar.s"
+	@echo "... Sword.o"
+	@echo "... Sword.i"
+	@echo "... Sword.s"
 	@echo "... Weapon.o"
 	@echo "... Weapon.i"
 	@echo "... Weapon.s"
