@@ -1,0 +1,14 @@
+//
+// Created by root on 5/30/17.
+//
+
+#ifndef EXPERIMENTGAMENOGRAPHICS_GAMECHAR_H
+#define EXPERIMENTGAMENOGRAPHICS_GAMECHAR_H
+
+
+class GameChar {
+
+};
+
+
+#endif //EXPERIMENTGAMENOGRAPHICS_GAMECHAR_H

@@ -1,0 +1,14 @@
+//
+// Created by root on 5/30/17.
+//
+
+#ifndef EXPERIMENTGAMENOGRAPHICS_WEAPON_H
+#define EXPERIMENTGAMENOGRAPHICS_WEAPON_H
+
+
+class Weapon {
+
+};
+
+
+#endif //EXPERIMENTGAMENOGRAPHICS_WEAPON_H
