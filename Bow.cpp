@@ -16,3 +16,7 @@ int Bow::use() {
     }
     return damage;
 }
+
+Bow *Bow::clone()  const{
+    return new Bow(*this);
+}

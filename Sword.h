@@ -12,6 +12,8 @@ public:
     Sword(int strength, bool magic = false, bool valirian = false);
     virtual int use() override; //Overriding the pure function from the base class to create a unique use function for this weapon.
 
+    virtual Sword *clone() const override; //Covariant return type.
+
     void setValirian(bool valirian){Sword::valirian = valirian;}
     bool isValirian() const{return valirian;}
 

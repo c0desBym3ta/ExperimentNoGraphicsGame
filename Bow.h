@@ -12,6 +12,8 @@ public:
     Bow(int strength, bool magic = false, int arrows = 10); // Making the destructor adding the first two variables that inherits from the base class and it's own;
     virtual int use() override; //Overriding the use function to make the unique implementation in bow function.
 
+    virtual Bow *clone() const override; //Cloning/Copying
+
     void setArrows(int arrows){Bow::arrows = arrows;}
     int getArrows() const{return arrows;}
 

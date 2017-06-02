@@ -12,7 +12,10 @@
 class Weapon {
 public:
     explicit Weapon(int strength, bool magic = false); //This predefined variables will not be changed. So let's make it explicit.
+    virtual ~Weapon() {}
     virtual int use() = 0; //Pure virtual function beacause every weapon has it own way to fight.
+
+    virtual Weapon *clone() const = 0; //Making a clone methos pure virtual to clone every weapon.
 
     void setStrength(int strength){ Weapon::strength = strength;}
     int getStrength() const{ return strength;}

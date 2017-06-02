@@ -13,6 +13,9 @@ public:
     virtual void move(int x, int y) override; //Overriding the move method. Now we can make a unique way for our character to move in our map.
     virtual int fight(GameChar &enemy) override; //Overriding the fight methos. So we can implement a unique attack way;
 
+    Knight(const Knight &original);
+    Knight &operator = (const Knight &right);
+
 private:
     std::string name; //Our knight is a specific type o character so it needs a name.
     int level; //Let's add and level to make it more real;

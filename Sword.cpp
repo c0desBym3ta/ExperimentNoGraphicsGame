@@ -18,3 +18,7 @@ int Sword::use(){
     else
         return damage;
 }
+
+Sword *Sword::clone() const {
+    return new Sword(*this);
+}
