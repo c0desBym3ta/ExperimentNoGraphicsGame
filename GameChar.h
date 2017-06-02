@@ -17,7 +17,7 @@ public:
     virtual int fight(GameChar &enemy) = 0; //Every character can fight we another ways. Here it's not smart to add a basicFight function. Enemy refers to the GameChat class itself. So it's a referece (&);
 
     //Let's make some copies. It's a good technique for problems we may have into the future. No need to change every single lines of code.
-    GameChar(const GameChar &original); //It will be a reference to GameChar.
+    GameChar(const GameChar &original); //It will be a reference to GameChar. Copy constructor
     GameChar &operator=(const GameChar &right); //Overloading the operator to use.
 
     int getHp() const {
