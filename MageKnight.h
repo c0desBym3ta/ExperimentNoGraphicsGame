@@ -12,7 +12,7 @@
 
 class MageKnight : public Knight, public Wizard {
 public:
-    MageKnight(int hp, int d,  std::string name) : GameChar(hp, dexterity), Knight(hp, d, name), Wizard(10, hp, dexterity) {}
+    MageKnight(int hp, int d,  Weapon *weapon = nullptr, std::string name = "No name.");
     virtual void move(int x, int y) override;
     virtual int fight(GameChar &enemy) override;
 };

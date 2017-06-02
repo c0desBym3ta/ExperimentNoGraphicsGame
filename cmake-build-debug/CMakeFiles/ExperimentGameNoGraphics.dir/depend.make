@@ -20,6 +20,14 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Knight.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Knight.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Weapon.h
 
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../Die.h
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../GameChar.h
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../Knight.h
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../MageKnight.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../MageKnight.h
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../Weapon.h
+CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o: ../Wizard.h
+
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../GameChar.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.cpp

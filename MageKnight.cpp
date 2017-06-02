@@ -5,6 +5,10 @@
 #include "MageKnight.h"
 
 
+MageKnight::MageKnight(int hp, int d, Weapon *weapon, std::string name) : GameChar(hp, dexterity), Knight(hp, d,weapon , name), Wizard(10, hp, weapon, dexterity) {
+
+}
+
 void MageKnight::move(int x, int y) {
     //adding some code..
 

@@ -46,6 +46,16 @@ Knight.h
 GameChar.h
 /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
 
+/root/CLionProjects/ExperimentGameNoGraphics/MageKnight.cpp
+MageKnight.h
+/root/CLionProjects/ExperimentGameNoGraphics/MageKnight.h
+
+/root/CLionProjects/ExperimentGameNoGraphics/MageKnight.h
+Wizard.h
+/root/CLionProjects/ExperimentGameNoGraphics/Wizard.h
+Knight.h
+/root/CLionProjects/ExperimentGameNoGraphics/Knight.h
+
 /root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp
 Orc.h
 /root/CLionProjects/ExperimentGameNoGraphics/Orc.h
