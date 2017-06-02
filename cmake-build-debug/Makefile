@@ -231,6 +231,33 @@ Knight.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.s
 .PHONY : Knight.cpp.s
 
+MageKnight.o: MageKnight.cpp.o
+
+.PHONY : MageKnight.o
+
+# target to build an object file
+MageKnight.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o
+.PHONY : MageKnight.cpp.o
+
+MageKnight.i: MageKnight.cpp.i
+
+.PHONY : MageKnight.i
+
+# target to preprocess a source file
+MageKnight.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.i
+.PHONY : MageKnight.cpp.i
+
+MageKnight.s: MageKnight.cpp.s
+
+.PHONY : MageKnight.s
+
+# target to generate assembly for a file
+MageKnight.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.s
+.PHONY : MageKnight.cpp.s
+
 Orc.o: Orc.cpp.o
 
 .PHONY : Orc.o
@@ -387,6 +414,9 @@ help:
 	@echo "... Knight.o"
 	@echo "... Knight.i"
 	@echo "... Knight.s"
+	@echo "... MageKnight.o"
+	@echo "... MageKnight.i"
+	@echo "... MageKnight.s"
 	@echo "... Orc.o"
 	@echo "... Orc.i"
 	@echo "... Orc.s"
