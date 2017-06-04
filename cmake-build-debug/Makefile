@@ -204,6 +204,33 @@ GameChar.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.s
 .PHONY : GameChar.cpp.s
 
+Inventory.o: Inventory.cpp.o
+
+.PHONY : Inventory.o
+
+# target to build an object file
+Inventory.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o
+.PHONY : Inventory.cpp.o
+
+Inventory.i: Inventory.cpp.i
+
+.PHONY : Inventory.i
+
+# target to preprocess a source file
+Inventory.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.i
+.PHONY : Inventory.cpp.i
+
+Inventory.s: Inventory.cpp.s
+
+.PHONY : Inventory.s
+
+# target to generate assembly for a file
+Inventory.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.s
+.PHONY : Inventory.cpp.s
+
 Knight.o: Knight.cpp.o
 
 .PHONY : Knight.o
@@ -284,6 +311,33 @@ Orc.s: Orc.cpp.s
 Orc.cpp.s:
 	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.s
 .PHONY : Orc.cpp.s
+
+Potion.o: Potion.cpp.o
+
+.PHONY : Potion.o
+
+# target to build an object file
+Potion.cpp.o:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o
+.PHONY : Potion.cpp.o
+
+Potion.i: Potion.cpp.i
+
+.PHONY : Potion.i
+
+# target to preprocess a source file
+Potion.cpp.i:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.i
+.PHONY : Potion.cpp.i
+
+Potion.s: Potion.cpp.s
+
+.PHONY : Potion.s
+
+# target to generate assembly for a file
+Potion.cpp.s:
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.s
+.PHONY : Potion.cpp.s
 
 Sword.o: Sword.cpp.o
 
@@ -411,6 +465,9 @@ help:
 	@echo "... GameChar.o"
 	@echo "... GameChar.i"
 	@echo "... GameChar.s"
+	@echo "... Inventory.o"
+	@echo "... Inventory.i"
+	@echo "... Inventory.s"
 	@echo "... Knight.o"
 	@echo "... Knight.i"
 	@echo "... Knight.s"
@@ -420,6 +477,9 @@ help:
 	@echo "... Orc.o"
 	@echo "... Orc.i"
 	@echo "... Orc.s"
+	@echo "... Potion.o"
+	@echo "... Potion.i"
+	@echo "... Potion.s"
 	@echo "... Sword.o"
 	@echo "... Sword.i"
 	@echo "... Sword.s"

@@ -297,6 +297,54 @@ CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o.provides: CMakeFiles/Ex
 CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o
 
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o: ../Inventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Inventory.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Inventory.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Inventory.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o
+
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o: CMakeFiles/ExperimentGameNoGraphics.dir/flags.make
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o: ../Potion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o -c /root/CLionProjects/ExperimentGameNoGraphics/Potion.cpp
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CLionProjects/ExperimentGameNoGraphics/Potion.cpp > CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.i
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CLionProjects/ExperimentGameNoGraphics/Potion.cpp -o CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.s
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.requires:
+
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.requires
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.provides: CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExperimentGameNoGraphics.dir/build.make CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.provides.build
+.PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.provides
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.provides.build: CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o
+
+
 # Object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_OBJECTS = \
 "CMakeFiles/ExperimentGameNoGraphics.dir/main.cpp.o" \
@@ -308,7 +356,9 @@ ExperimentGameNoGraphics_OBJECTS = \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o" \
 "CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o" \
-"CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o"
+"CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o" \
+"CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o"
 
 # External object files for target ExperimentGameNoGraphics
 ExperimentGameNoGraphics_EXTERNAL_OBJECTS =
@@ -323,9 +373,11 @@ ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o
+ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/build.make
 ExperimentGameNoGraphics: CMakeFiles/ExperimentGameNoGraphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ExperimentGameNoGraphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CLionProjects/ExperimentGameNoGraphics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ExperimentGameNoGraphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ExperimentGameNoGraphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -343,6 +395,8 @@ CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGra
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Wizard.cpp.o.requires
 CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/MageKnight.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o.requires
+CMakeFiles/ExperimentGameNoGraphics.dir/requires: CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o.requires
 
 .PHONY : CMakeFiles/ExperimentGameNoGraphics.dir/requires
 

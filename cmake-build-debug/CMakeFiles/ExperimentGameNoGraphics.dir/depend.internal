@@ -14,6 +14,9 @@ CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o
  /root/CLionProjects/ExperimentGameNoGraphics/GameChar.cpp
  /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
  /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o
+ /root/CLionProjects/ExperimentGameNoGraphics/Inventory.cpp
+ /root/CLionProjects/ExperimentGameNoGraphics/Inventory.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o
  /root/CLionProjects/ExperimentGameNoGraphics/Die.h
  /root/CLionProjects/ExperimentGameNoGraphics/GameChar.h
@@ -34,6 +37,9 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o
  /root/CLionProjects/ExperimentGameNoGraphics/Orc.cpp
  /root/CLionProjects/ExperimentGameNoGraphics/Orc.h
  /root/CLionProjects/ExperimentGameNoGraphics/Weapon.h
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o
+ /root/CLionProjects/ExperimentGameNoGraphics/Potion.cpp
+ /root/CLionProjects/ExperimentGameNoGraphics/Potion.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o
  /root/CLionProjects/ExperimentGameNoGraphics/Die.h
  /root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp

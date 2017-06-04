@@ -102,6 +102,12 @@
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/GameChar.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Inventory.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Inventory.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Knight.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
@@ -120,10 +126,19 @@
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Orc.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Potion.cpp">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Potion.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.cpp">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Sword.h">
+			<Option target="ExperimentGameNoGraphics"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Utilities.h">
 			<Option target="ExperimentGameNoGraphics"/>
 		</Unit>
 		<Unit filename="/root/CLionProjects/ExperimentGameNoGraphics/Weapon.cpp">

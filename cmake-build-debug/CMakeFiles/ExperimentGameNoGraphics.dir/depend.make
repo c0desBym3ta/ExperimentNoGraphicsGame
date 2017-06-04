@@ -14,6 +14,9 @@ CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../GameChar.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../GameChar.h
 CMakeFiles/ExperimentGameNoGraphics.dir/GameChar.cpp.o: ../Weapon.h
 
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o: ../Inventory.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/Inventory.cpp.o: ../Inventory.h
+
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../GameChar.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Knight.cpp.o: ../Knight.cpp
@@ -33,6 +36,9 @@ CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../GameChar.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.cpp
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Orc.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Orc.cpp.o: ../Weapon.h
+
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o: ../Potion.cpp
+CMakeFiles/ExperimentGameNoGraphics.dir/Potion.cpp.o: ../Potion.h
 
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Die.h
 CMakeFiles/ExperimentGameNoGraphics.dir/Sword.cpp.o: ../Sword.cpp
